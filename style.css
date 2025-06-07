@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.navbar {
+  background: #ffffff;
+  color: #000000;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: rgb(26, 16, 16);
+  text-decoration: none;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+
+.btn {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: rgb(31, 22, 22);
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+  transform: scale(1.05);
+}
+
+.products {
+  padding: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cart-page {
+  padding: 2rem;
+  text-align: center;
+}
+.about-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.glow-text {
+  font-size: 5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position: relative;
+  background: radial-gradient(circle at center, #ffffff, #00f0ff, #000);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background-position 0.1s;
+}
